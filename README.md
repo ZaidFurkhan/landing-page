@@ -12,4 +12,4 @@ A clean, responsive dark-mode landing page for CodeSkill.AI, built with React, V
 
 
 
-#Developed By [Zaid Furkhan]
+# Developed By Zaid Furkhan
