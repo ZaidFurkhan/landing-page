@@ -20,7 +20,17 @@ Follow these steps to get the project running locally:
 ```bash
 git clone https://github.com/ZaidFurkhan/landing-page.git
 cd landing-page
-
+```
+### 2. Install dependencies
+Install required npm packages
+```bash
+npm install
+```
+### 3. Run Development Server
+Once started, open your browser and navigate to: **(http://localhost:5173)**
+```bash
+npm run dev
+```
 
 
 
