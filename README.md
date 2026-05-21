@@ -35,4 +35,4 @@ npm run dev
 
 
 --
-# Developed By Zaid Furkhan
+Developed By Zaid Furkhan
