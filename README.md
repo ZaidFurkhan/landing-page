@@ -2,7 +2,7 @@
 A clean, responsive dark-mode landing page for CodeSkill.AI, built with React, Vite, and Tailwind CSS.
 
 # Live Demo 
-**[https://landing-page-kx0q.onrender.com/]
+**(https://landing-page-kx0q.onrender.com/)**
 
 ## 🛠️ Built With
 - **React** (Frontend Framework)
