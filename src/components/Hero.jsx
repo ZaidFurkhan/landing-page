@@ -11,7 +11,7 @@ import { useEffect, useState } from "react";
 
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 
-import { oneDark } from "react-syntax-highlighter/dist/esm/styles/prism";
+import { nightOwl } from "react-syntax-highlighter/dist/esm/styles/prism";
 
 import {
   codeExample,
@@ -182,15 +182,15 @@ export default function Hero() {
                   <div className="flex-auto overflow-hidden rounded-lg">
                     <SyntaxHighlighter
                       language="jsx"
-                      style={oneDark}
-                      wrapLongLines={true}
-                      customStyle={{
-                        margin: 0,
-                        borderRadius:"8px",
-                        fontSize: "11px",
-                        height:"100%",
-                        lineHeight:"1.4",
-                        border:"1px solid #3c3c3c",
+                                        style={nightOwl}
+                                        wrapLines={true}
+                                        customStyle={{
+                                        margin: 0,
+                                        borderRadius:"8px",
+                                        fontSize: "0.75rem",
+                                        height:"100%",
+                                        lineHeight:"1.4",
+                                        
                       }}
                     >
                       {codeExample?.[activeTab] ||

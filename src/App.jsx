@@ -9,7 +9,7 @@ import { useEffect, useState } from "react"
 
 function App() {
 
-  const { scrolled, setScrolled} = useState(false);
+  const [ scrolled, setScrolled ] = useState(false);
   useEffect( ()=>{
     function handleScroll() {
       setScrolled(window.scrollY > 50);

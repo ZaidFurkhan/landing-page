@@ -2,19 +2,19 @@ const testimonials = [
     {
         name:"Ravi Kumar",
         role:"Senior Dev",
-        image:"https://www.magnific.com/free-photo/young-bearded-man-with-striped-shirt_9660042.htm#fromView=keyword&page=1&position=0&uuid=893e7f42-e74c-4524-b40f-49bac53fb1c5&query=Person+front",
+        image:"https://media.istockphoto.com/id/1364917563/photo/businessman-smiling-with-arms-crossed-on-white-background.jpg?s=612x612&w=0&k=20&c=NtM9Wbs1DBiGaiowsxJY6wNCnLf0POa65rYEwnZymrM=",
         content:"This platform makes my works easy and efficient with an AI advanced features"
     },
     {
         name:"Ravi Kumar",
         role:"Senior Dev",
-        image:"https://www.magnific.com/free-photo/young-bearded-man-with-striped-shirt_9660042.htm#fromView=keyword&page=1&position=0&uuid=893e7f42-e74c-4524-b40f-49bac53fb1c5&query=Person+front",
+        image:"https://media.istockphoto.com/id/1364917563/photo/businessman-smiling-with-arms-crossed-on-white-background.jpg?s=612x612&w=0&k=20&c=NtM9Wbs1DBiGaiowsxJY6wNCnLf0POa65rYEwnZymrM=",
         content:"This platform makes my works easy and efficient with an AI advanced features"
     },
     {
         name:"Ravi Kumar",
         role:"Senior Dev",
-        image:"https://www.magnific.com/free-photo/young-bearded-man-with-striped-shirt_9660042.htm#fromView=keyword&page=1&position=0&uuid=893e7f42-e74c-4524-b40f-49bac53fb1c5&query=Person+front",
+        image:"https://media.istockphoto.com/id/1364917563/photo/businessman-smiling-with-arms-crossed-on-white-background.jpg?s=612x612&w=0&k=20&c=NtM9Wbs1DBiGaiowsxJY6wNCnLf0POa65rYEwnZymrM=",
         content:"This platform makes my works easy and efficient with an AI advanced features"
     }
 ]
@@ -42,7 +42,7 @@ export default function Testimonials() {
                                 </div>
                                 <div className="grow">
                                     <p className="text-base text-white sm:text-lg leadinng-relaxed mb-4">{testimonials.content}</p>
-                                    <div className="flex items-center space-x-2 sm:space-x-3"><img src="" alt="" className="w-10 h-10 sm:w-12 sm:h-12 rounded-full object-cover border "/>
+                                    <div className="flex items-center space-x-2 sm:space-x-3"><img src={testimonials.image} alt="" className="w-10 h-10 sm:w-12 sm:h-12 rounded-full object-cover"/>
                                     <div>
                                         <h4 className="font-semibold text-white text-sm sm:text-base">{testimonials.name}</h4>
                                         <p className="text-gray-400 text-xs sm:text-sm">{testimonials.role}</p>
